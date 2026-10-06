@@ -1,5 +1,5 @@
 # Object Detection on Drone Imagery (VisDrone)
-
+This project is developed under Hexovate Solutions
 Detects 10 object classes in aerial drone images using **YOLO11s** trained at **960 px**, with oversampling of rare classes. Includes an interactive Streamlit dashboard for running detection and exploring the results.
 
 ### Live dashboard: **[object-detection-on-drone-imagery-p9dheet3sdn7bmjxeytgq5.streamlit.app](https://object-detection-on-drone-imagery-p9dheet3sdn7bmjxeytgq5.streamlit.app)**
