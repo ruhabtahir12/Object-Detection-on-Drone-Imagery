@@ -1,4 +1,4 @@
-# Task 2 Write-up: Object Detection on Drone Imagery (VisDrone)
+#  Write-up: Object Detection on Drone Imagery (VisDrone)
 
 **Candidate:** Ruhab · **Model:** YOLO11s at 960 px · **Dashboard:** https://object-detection-on-drone-imagery-p9dheet3sdn7bmjxeytgq5.streamlit.app
 
@@ -36,4 +36,4 @@ The worst-case images are in `failure_examples.png`. The main failure patterns:
 - Improve preprocessing and augmentation, such as copy-paste for rare classes.
 - Export to ONNX and report CPU speed.
 
-**Not completed:** the bonus items (tiled inference, ONNX export), and a second dataset.
+**Not completed:**  the bonus items (tiled inference, ONNX export), and a second dataset.
