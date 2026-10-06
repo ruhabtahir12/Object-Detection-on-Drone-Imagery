@@ -1,4 +1,4 @@
-# 🛰️ Object Detection on Drone Imagery (VisDrone)
+# Object Detection on Drone Imagery (VisDrone)
 
 Detects 10 object classes in aerial drone images using **YOLO11s** trained at **960 px**, with oversampling of rare classes. Includes an interactive Streamlit dashboard for running detection and exploring the results.
 
