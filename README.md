@@ -88,16 +88,7 @@ Weights were selected on the validation set, so the **test** score (0.391 mAP50)
 - **Slow on CPU.** The hosted dashboard runs inference on CPU at 960 px, so large images can take several seconds. A free-tier host may also sleep when idle, so the first load can be slow.
 - **Counts are detections, not ground truth.** Per-class counts shown in the dashboard are model outputs and inherit all the errors above.
 
-- Future work
 
-To get better results, the next steps are:
-
-Train for many more epochs. The current model saw only about 25 epochs, so training for a much larger number of epochs should let it converge further, especially on the hard classes.
-Train a larger model. Move from YOLO11s to a bigger model (YOLO11m/l/x) on stronger GPUs to improve accuracy on small and rare objects.
-Improve preprocessing and augmentation. Better handling of tiny objects, such as tiled/sliced inference, higher-resolution inputs, and stronger augmentation (scale, mosaic, copy-paste for rare classes), together with cleaner data preparation.
-Better handling of class imbalance and confusable classes, to reduce errors like van → car and people → pedestrian.
-
-These changes are expected to raise mAP and reduce the missed and misclassified objects listed under Limitations.
 
 ## Run locally
 
